@@ -1,0 +1,1 @@
+//alert("display this website on desctop only")
