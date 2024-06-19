@@ -144,7 +144,7 @@ header {
 
 
 ::-webkit-scrollbar {
-  display: none;
+ /* display: none;*/
 }
 
 .product:hover .product-content {
