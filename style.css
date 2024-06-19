@@ -111,11 +111,13 @@ header {
   margin: 0 auto;
   width: 1000px;
   display: flex;
-  overflow: scroll;
+/*  overflow: scroll;*/
   align-items: center;
   border: 1px solid black;
   border-radius: 50px;
-
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  overflow-x: scroll;        /* Enable horizontal scrolling */
 
 
 }
@@ -132,6 +134,8 @@ header {
 
 }
 
+
+
 .product-content {
   margin: 0 70px 0 60px;
   border: 1px solid black;
@@ -140,6 +144,8 @@ header {
   align-items: center;
   font-size: large;
   font-weight: bold;
+
+  
 }
 
 
