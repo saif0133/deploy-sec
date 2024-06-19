@@ -118,7 +118,8 @@ header {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
   overflow-x: scroll;        /* Enable horizontal scrolling */
-
+  white-space: nowrap;       /* Prevent line break, ensuring horizontal scroll */
+  box-sizing: border-box;    /* Ensure padding and border are included in the width */
 
 }
 
