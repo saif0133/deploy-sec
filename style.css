@@ -134,7 +134,9 @@ header {
 
 }
 
-
+.product {
+ display: inline-block;
+}
 
 .product-content {
   margin: 0 70px 0 60px;
